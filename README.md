@@ -9,13 +9,13 @@
 |password|integer|null:false|
 
 ### Association
-- hasmany :score
+- has_many :score
 
 ## scoreテーブル
 
 |Column|Type|Options|
 |------|----|-------|
-|date|integer|null: false|
+|date|date|null: false|
 |locate|integer|null: false|
 |1hscore|integer|null: false|
 |2hscore|integer|null: false|
